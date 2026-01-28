@@ -1,32 +1,44 @@
 <h2 align="left">Hi 👋 I'm Antonin Do Souto</h2>
-<h3 align="left">Linux C/C++ Production Reliability & Crash Forensics Specialist</h3>
+<h3 align="left">Embedded Linux Systems Engineer - Safety-Critical Runtime & HMI</h3>
 
 ###
 
 <p align="left">
-I investigate non-deterministic crashes, memory corruption, and production failures on Linux and embedded systems.<br><br>
+I design and analyze <b>safety-critical embedded systems</b> running on Linux, with a strong focus on
+<b>runtime behavior, determinism, and failure modes</b>.<br><br>
 
-My work focuses on understanding <b>why systems fail</b>, not just how to patch symptoms.
-I operate at the intersection of low-level C/C++ debugging, embedded Linux, and system-level reliability,
-with experience spanning hardware-integrated products and production-grade software.<br><br>
+My work sits at the intersection of low-level C/C++, embedded Linux, and critical human–machine interfaces.
+I focus on systems that must continue to behave correctly under stress, partial failures, and degraded conditions,
+not on feature-driven or purely abstract software.<br><br>
 
-Current areas of work include:
+I have strong experience in <b>production crash analysis and post-mortem debugging</b>, which I use as a tool
+to design more robust systems upstream, rather than as a reactive-only activity.
+</p>
+
+###
+
+<p align="left">
+<b>Core areas of expertise:</b>
 <ul>
+  <li>Embedded Linux systems (C/C++, Buildroot, Raspberry Pi)</li>
+  <li>Safety-critical runtime behavior (watchdogs, supervision, modes dégradés)</li>
+  <li>Critical HMI design (control surfaces, alarms, fail-safe interaction)</li>
   <li>Linux crash analysis (core dumps, memory corruption, race conditions)</li>
-  <li>Embedded Linux systems (Buildroot, Raspberry Pi, C/C++)</li>
-  <li>Failure analysis and production robustness</li>
-  <li>End-to-end systems involving hardware, backend services, and UI layers</li>
+  <li>Deterministic systems, fault injection, and post-mortem reconstruction</li>
+  <li>End-to-end systems combining hardware, low-level software, and UI</li>
 </ul>
+</p>
 
-I am not focused on building features or demos.
-I focus on diagnosing failure modes, understanding causality, and restoring system correctness.
+<p align="left">
+I am not focused on building flashy demos or shipping features quickly.<br>
+I focus on <b>understanding why systems fail</b>, how failures propagate, and how to design software
+that remains predictable and controllable in real-world conditions.
 </p>
 
 ###
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=avainfo&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=radical&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://streak-stats.demolab.com?user=avainfo&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=15" height="150" alt="streak graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=avainfo&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=7&theme=radical&hide_border=false" height="150" alt="languages graph" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=avainfo&theme=redical&area=true&radius=15&hide_title=true" height="250" alt="activity graph" />
 </div>
