@@ -1,39 +1,34 @@
-<h2 align="left">Hi 👋 I'm Antonin Do Souto</h2>
-<h3 align="left">Embedded Linux Systems Engineer - Safety-Critical Runtime & HMI</h3>
-
-###
+<h2 align="left">Hi, I'm Antonin Do Souto</h2>
+<h3 align="left">Critical Embedded Systems & HMI Engineer (C / C++)</h3>
 
 <p align="left">
-I design and analyze <b>safety-critical embedded systems</b> running on Linux, with a strong focus on
-<b>runtime behavior, determinism, and failure modes</b>.<br><br>
+I design and implement software for systems where behavior, failure modes, and recovery paths matter.<br><br>
 
-My work sits at the intersection of low-level C/C++, embedded Linux, and critical human–machine interfaces.
-I focus on systems that must continue to behave correctly under stress, partial failures, and degraded conditions,
-not on feature-driven or purely abstract software.<br><br>
+My work focuses on <b>defining system behavior under normal and degraded conditions</b>,
+not on feature development or application-level plumbing.
+I operate at the boundary between embedded software, runtime constraints, and human-machine interfaces,
+with direct responsibility over how systems react to faults, invalid states, and unexpected inputs.<br><br>
 
-I have strong experience in <b>production crash analysis and post-mortem debugging</b>, which I use as a tool
-to design more robust systems upstream, rather than as a reactive-only activity.
-</p>
-
-###
-
-<p align="left">
-<b>Core areas of expertise:</b>
+I primarily work with:
 <ul>
-  <li>Embedded Linux systems (C/C++, Buildroot, Raspberry Pi)</li>
-  <li>Safety-critical runtime behavior (watchdogs, supervision, modes dégradés)</li>
-  <li>Critical HMI design (control surfaces, alarms, fail-safe interaction)</li>
-  <li>Linux crash analysis (core dumps, memory corruption, race conditions)</li>
-  <li>Deterministic systems, fault injection, and post-mortem reconstruction</li>
-  <li>End-to-end systems combining hardware, low-level software, and UI</li>
+  <li>C / C++ for embedded and system-level software</li>
+  <li>Explicit state machines and deterministic control logic</li>
+  <li>Failure modes, degraded operation, and recovery strategies</li>
+  <li>Embedded Linux (Buildroot), bare-metal, and constrained environments</li>
+  <li>HMI logic for machines, dashboards, and supervision systems</li>
 </ul>
+
+What I deliberately do not focus on:
+<ul>
+  <li>Web, SaaS, or application feature factories</li>
+  <li>Cosmetic UI without system responsibility</li>
+  <li>Debugging systems I did not help design</li>
+</ul>
+
+My goal is to build and maintain systems that remain understandable, predictable,
+and controllable when conditions are no longer ideal.
 </p>
 
-<p align="left">
-I am not focused on building flashy demos or shipping features quickly.<br>
-I focus on <b>understanding why systems fail</b>, how failures propagate, and how to design software
-that remains predictable and controllable in real-world conditions.
-</p>
 
 ###
 
