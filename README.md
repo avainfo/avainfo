@@ -81,9 +81,11 @@ I also provide structured embedded failure triage for teams dealing with crashes
   <a href="https://www.linkedin.com/in/antonin-do-souto/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" />
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:antonindosouto@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35" />
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.malt.fr/profile/antonindosouto" target="_blank">
     <img src="https://img.shields.io/badge/Malt-FC5656?style=for-the-badge" height="35" />
   </a>
