@@ -80,93 +80,131 @@
 
 <h3 align="left">Selected systems work</h3>
 
-<h4>
-  <a href="https://github.com/pop-os/launcher/pull/291">
-    Pop!_OS COSMIC Launcher
-  </a>
-</h4>
-
-<p>
-  <code>Rust</code>
-  <code>Wayland</code>
-  <code>screencopy</code>
-  <code>async</code>
-  <code>open upstream PR</code>
+<p align="center">
+  <b>Systems work built around one principle:</b><br>
+  <i>failures should be observable, reproducible and explainable.</i>
 </p>
 
-<p>
-Open upstream pull request adding Alt-Tab window thumbnails through asynchronous Wayland screencopy,
-SHM buffer processing, RGBA thumbnail generation, caching and refresh handling inside an existing Rust codebase.
-</p>
+<table>
+  <tr>
+    <td width="100%">
+      <h3>
+        🪟
+        <a href="https://github.com/pop-os/launcher/pull/291"> Pop!_OS COSMIC Launcher </a>
+      </h3>
+      <p>
+        <code>Rust</code>
+        <code>Wayland</code>
+        <code>screencopy</code>
+        <code>async</code>
+        <code>open upstream PR</code>
+      </p>
+      <p>
+        Open upstream contribution adding Alt-Tab window thumbnails through asynchronous Wayland screencopy, SHM buffer
+        processing, RGBA thumbnail generation, caching and refresh handling.
+      </p>
+      <p>
+        <strong>Demonstrates:</strong>
+        integration into an existing systems codebase, asynchronous Rust, Wayland protocols and low-level image-buffer
+        handling.
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
-<h4>
-  <a href="https://github.com/avainfo/AegisEdge">
-    Aegis Edge
-  </a>
-</h4>
-
-<p>
-  <code>C++</code>
-  <code>UDP telemetry</code>
-  <code>fault injection</code>
-  <code>degraded modes</code>
-  <code>working prototype</code>
-</p>
-
-<p>
-Resilient telemetry prototype with a C++ core that reacts explicitly to delayed, stale and lost data through
-<code>NORMAL</code>, <code>DEGRADED</code> and <code>LOST</code> states.
-A controllable chaos proxy injects latency, packet loss and complete communication cuts to demonstrate degradation and recovery.
-The project also includes an optional OpenCV-based horizon detection pipeline.
-</p>
-
-<br>
-
-<h4>
-  <a href="https://github.com/PGADS-Dev/Sentinel-Dual-Control-System">
-    Sentinel Dual-Control System
-  </a>
-</h4>
-
-<p>
-  <code>C</code>
-  <code>deterministic FSM</code>
-  <code>fault handling</code>
-  <code>active development</code>
-</p>
-
-<p>
-Embedded reliability demonstrator currently focused on a portable behavioral core with explicit
-<code>INIT</code>, <code>NOMINAL</code>, <code>DEGRADED</code> and <code>FAIL_SAFE</code> states,
-defined fault events, unit tests and reproducible transition validation.
-</p>
-
-<p>
-STM32 integration, CAN communication, Raspberry Pi supervision and hardware fault injection are the next implementation stages and are not presented here as completed work.
-</p>
+<table>
+  <tr>
+    <td width="100%">
+      <h3>
+        📡
+        <a href="https://github.com/avainfo/AegisEdge"> Aegis Edge </a>
+      </h3>
+      <p>
+        <code>C++</code>
+        <code>UDP telemetry</code>
+        <code>fault injection</code>
+        <code>degraded modes</code>
+        <code>working prototype</code>
+      </p>
+      <p>
+        Resilient telemetry system reacting explicitly to delayed, stale and lost data through
+        <code>NORMAL</code>, <code>DEGRADED</code> and <code>LOST</code> states.
+      </p>
+      <p>
+        A controllable chaos proxy injects latency, packet loss and complete communication cuts to demonstrate
+        degradation and recovery.
+      </p>
+      <p>
+        <strong>Demonstrates:</strong>
+        explicit failure handling, telemetry supervision, reproducible fault injection and degraded-system behavior.
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
-<h4>
-  <a href="https://github.com/PGADS-Dev/BlackBoxWhisperer">
-    BlackBoxWhisperer
-  </a>
-</h4>
+<table>
+  <tr>
+    <td width="100%">
+      <h3>
+        🛡️
+        <a href="https://github.com/PGADS-Dev/Sentinel-Dual-Control-System"> Sentinel Dual-Control System </a>
+      </h3>
+      <p>
+        <code>C</code>
+        <code>deterministic FSM</code>
+        <code>fault handling</code>
+        <code>active development</code>
+      </p>
+      <p>
+        Embedded reliability demonstrator built around explicit
+        <code>INIT</code>, <code>NOMINAL</code>, <code>DEGRADED</code> and <code>FAIL_SAFE</code> states, defined fault
+        events and reproducible transition validation.
+      </p>
+      <p>
+        <strong>Demonstrated today:</strong>
+        portable behavioral core, deterministic transitions, unit tests and documented fault semantics.
+      </p>
+      <p>
+        <strong>Next:</strong>
+        STM32 integration, CAN communication, Raspberry Pi supervision and hardware fault injection.
+      </p>
+    </td>
+  </tr>
+</table>
 
-<p>
-  <code>TypeScript</code>
-  <code>static analysis</code>
-  <code>deterministic pipeline</code>
-  <code>V1 engine</code>
-</p>
+<br>
 
-<p>
-Deterministic static-analysis engine for unfamiliar legacy codebases.
-The current V1 includes a functional COBOL adapter and produces reproducible indexes, call graphs, metrics,
-risk artifacts and technical reports with hashed inputs and outputs.
-</p>
+<table>
+  <tr>
+    <td width="100%">
+      <h3>
+        🔎
+        <a href="https://github.com/PGADS-Dev/BlackBoxWhisperer"> BlackBoxWhisperer </a>
+      </h3>
+      <p>
+        <code>TypeScript</code>
+        <code>static analysis</code>
+        <code>deterministic pipeline</code>
+        <code>V1 engine</code>
+      </p>
+      <p>
+        Deterministic static-analysis engine for unfamiliar legacy codebases. The current V1 includes a functional COBOL
+        adapter producing reproducible indexes, call graphs, metrics, risk artifacts and technical reports from hashed
+        source evidence.
+      </p>
+      <p>
+        <strong>Demonstrates:</strong>
+        deterministic analysis pipelines, artifact integrity, reproducible runs and evidence-driven software
+        investigation.
+      </p>
+    </td>
+  </tr>
+</table>
+
 
 <h4 align="left">Supporting engineering work</h4>
 
