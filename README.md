@@ -2,6 +2,15 @@
 
 <h3 align="left">C/C++ Linux Engineer · Systems Debugging · Embedded Reliability · Technical Trainer</h3>
 
+<br>
+
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Debugging+the+failures+that+are+hard+to+reproduce.;Crashes+%C2%B7+Freezes+%C2%B7+Watchdogs+%C2%B7+Stale+Data;Linux+%C2%B7+C%2FC%2B%2B+%C2%B7+Rust+%C2%B7+Embedded+Reliability"
+    alt="Technical focus"
+  />
+</p>
+
 <p align="left">
 I work on Linux, C and C++ systems where failures are hard to reproduce or explain: crashes, freezes, watchdog resets, stale data, communication failures and unclear runtime behavior.
 </p>
@@ -44,17 +53,17 @@ My focus is making those failures observable, reducing uncertainty and turning i
 <h3 align="left">Technical toolbox</h3>
 
 <div align="center">
-  <img src="./assets/icons/c.svg" height="42" alt="C" />
+  <img src="https://raw.githubusercontent.com/avainfo/avainfo/main/assets/icons/C.svg" height="42" alt="C" />
   <img width="18" />
-  <img src="./assets/icons/cpp.svg" height="42" alt="C++" />
+  <img src="https://raw.githubusercontent.com/avainfo/avainfo/main/assets/icons/Cpp.svg" height="42" alt="C++" />
   <img width="18" />
-  <img src="./assets/icons/Rust.svg" height="42" alt="Rust" />
+  <img src="https://raw.githubusercontent.com/avainfo/avainfo/main/assets/icons/Rust.svg" height="42" alt="Rust" />
   <img width="18" />
-  <img src="./assets/icons/linux.svg" height="42" alt="Linux" />
+  <img src="https://raw.githubusercontent.com/avainfo/avainfo/main/assets/icons/Linux.svg" height="42" alt="Linux" />
   <img width="18" />
-  <img src="./assets/icons/docker.svg" height="42" alt="Docker" />
+  <img src="https://raw.githubusercontent.com/avainfo/avainfo/main/assets/icons/Docker.svg" height="42" alt="Docker" />
   <img width="18" />
-  <img src="./assets/icons/git.svg" height="42" alt="Git" />
+  <img src="https://raw.githubusercontent.com/avainfo/avainfo/main/assets/icons/Git.svg" height="42" alt="Git" />
 </div>
 
 <br>
