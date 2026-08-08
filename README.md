@@ -310,7 +310,7 @@ I am also selectively open to systems software roles with strong technical depth
   </a>
   &nbsp;
   <a href="https://www.codementor.io/@antonindosouto?refer=badge">
-    <img src="https://img.shields.io/badge/CODEMENTOR-033446?style=for-the-badge&logo=codementor&logoColor=white" height="32" alt="Codementor" &logoSize=auto />
+    <img src="https://img.shields.io/badge/CODEMENTOR-033446?style=for-the-badge&logo=codementor&logoColor=white" height="32" alt="Codementor" />
   </a>
 </div>
 
