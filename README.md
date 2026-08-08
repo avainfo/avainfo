@@ -85,126 +85,141 @@
   <i>failures should be observable, reproducible and explainable.</i>
 </p>
 
-<table>
-  <tr>
-    <td width="100%">
-      <h3>
-        🪟
-        <a href="https://github.com/pop-os/launcher/pull/291"> Pop!_OS COSMIC Launcher </a>
-      </h3>
-      <p>
-        <code>Rust</code>
-        <code>Wayland</code>
-        <code>screencopy</code>
-        <code>async</code>
-        <code>open upstream PR</code>
-      </p>
-      <p>
-        Open upstream contribution adding Alt-Tab window thumbnails through asynchronous Wayland screencopy, SHM buffer
-        processing, RGBA thumbnail generation, caching and refresh handling.
-      </p>
-      <p>
-        <strong>Demonstrates:</strong>
-        integration into an existing systems codebase, asynchronous Rust, Wayland protocols and low-level image-buffer
-        handling.
-      </p>
-    </td>
-  </tr>
-</table>
+<br>
+
+<h3>
+  🪟
+  <a href="https://github.com/pop-os/launcher/pull/291">
+    Pop!_OS COSMIC Launcher
+  </a>
+</h3>
+
+<p>
+  <code>Rust</code>
+  <code>Wayland</code>
+  <code>screencopy</code>
+  <code>async</code>
+  <code>open upstream PR</code>
+</p>
+
+<blockquote>
+  <p>
+    Open upstream contribution adding Alt-Tab window thumbnails through asynchronous
+    Wayland screencopy, SHM buffer processing, RGBA thumbnail generation,
+    caching and refresh handling.
+  </p>
+
+  <p>
+    <strong>Demonstrates:</strong>
+    integration into an existing open-source systems codebase,
+    asynchronous Rust, Wayland protocols and low-level image-buffer handling.
+  </p>
+</blockquote>
 
 <br>
 
-<table>
-  <tr>
-    <td width="100%">
-      <h3>
-        📡
-        <a href="https://github.com/avainfo/AegisEdge"> Aegis Edge </a>
-      </h3>
-      <p>
-        <code>C++</code>
-        <code>UDP telemetry</code>
-        <code>fault injection</code>
-        <code>degraded modes</code>
-        <code>working prototype</code>
-      </p>
-      <p>
-        Resilient telemetry system reacting explicitly to delayed, stale and lost data through
-        <code>NORMAL</code>, <code>DEGRADED</code> and <code>LOST</code> states.
-      </p>
-      <p>
-        A controllable chaos proxy injects latency, packet loss and complete communication cuts to demonstrate
-        degradation and recovery.
-      </p>
-      <p>
-        <strong>Demonstrates:</strong>
-        explicit failure handling, telemetry supervision, reproducible fault injection and degraded-system behavior.
-      </p>
-    </td>
-  </tr>
-</table>
+<h3>
+  📡
+  <a href="https://github.com/avainfo/AegisEdge">
+    Aegis Edge
+  </a>
+</h3>
+
+<p>
+  <code>C++</code>
+  <code>UDP telemetry</code>
+  <code>fault injection</code>
+  <code>degraded modes</code>
+  <code>working prototype</code>
+</p>
+
+<blockquote>
+  <p>
+    Resilient telemetry system reacting explicitly to delayed, stale and lost data
+    through <code>NORMAL</code>, <code>DEGRADED</code> and <code>LOST</code> states.
+  </p>
+
+  <p>
+    A controllable chaos proxy injects latency, packet loss and complete
+    communication cuts to demonstrate degradation and recovery.
+  </p>
+
+  <p>
+    <strong>Demonstrates:</strong>
+    explicit failure handling, telemetry supervision,
+    reproducible fault injection and degraded-system behavior.
+  </p>
+</blockquote>
 
 <br>
 
-<table>
-  <tr>
-    <td width="100%">
-      <h3>
-        🛡️
-        <a href="https://github.com/PGADS-Dev/Sentinel-Dual-Control-System"> Sentinel Dual-Control System </a>
-      </h3>
-      <p>
-        <code>C</code>
-        <code>deterministic FSM</code>
-        <code>fault handling</code>
-        <code>active development</code>
-      </p>
-      <p>
-        Embedded reliability demonstrator built around explicit
-        <code>INIT</code>, <code>NOMINAL</code>, <code>DEGRADED</code> and <code>FAIL_SAFE</code> states, defined fault
-        events and reproducible transition validation.
-      </p>
-      <p>
-        <strong>Demonstrated today:</strong>
-        portable behavioral core, deterministic transitions, unit tests and documented fault semantics.
-      </p>
-      <p>
-        <strong>Next:</strong>
-        STM32 integration, CAN communication, Raspberry Pi supervision and hardware fault injection.
-      </p>
-    </td>
-  </tr>
-</table>
+<h3>
+  🛡️
+  <a href="https://github.com/PGADS-Dev/Sentinel-Dual-Control-System">
+    Sentinel Dual-Control System
+  </a>
+</h3>
+
+<p>
+  <code>C</code>
+  <code>deterministic FSM</code>
+  <code>fault handling</code>
+  <code>active development</code>
+</p>
+
+<blockquote>
+  <p>
+    Embedded reliability demonstrator built around explicit
+    <code>INIT</code>, <code>NOMINAL</code>, <code>DEGRADED</code>
+    and <code>FAIL_SAFE</code> states, defined fault events
+    and reproducible transition validation.
+  </p>
+
+  <p>
+    <strong>Demonstrated today:</strong>
+    portable behavioral core, deterministic transitions,
+    unit tests and documented fault semantics.
+  </p>
+
+  <p>
+    <strong>Next:</strong>
+    STM32 integration, CAN communication, Raspberry Pi supervision
+    and hardware fault injection.
+  </p>
+</blockquote>
 
 <br>
 
-<table>
-  <tr>
-    <td width="100%">
-      <h3>
-        🔎
-        <a href="https://github.com/PGADS-Dev/BlackBoxWhisperer"> BlackBoxWhisperer </a>
-      </h3>
-      <p>
-        <code>TypeScript</code>
-        <code>static analysis</code>
-        <code>deterministic pipeline</code>
-        <code>V1 engine</code>
-      </p>
-      <p>
-        Deterministic static-analysis engine for unfamiliar legacy codebases. The current V1 includes a functional COBOL
-        adapter producing reproducible indexes, call graphs, metrics, risk artifacts and technical reports from hashed
-        source evidence.
-      </p>
-      <p>
-        <strong>Demonstrates:</strong>
-        deterministic analysis pipelines, artifact integrity, reproducible runs and evidence-driven software
-        investigation.
-      </p>
-    </td>
-  </tr>
-</table>
+<h3>
+  🔎
+  <a href="https://github.com/PGADS-Dev/BlackBoxWhisperer">
+    BlackBoxWhisperer
+  </a>
+</h3>
 
+<p>
+  <code>TypeScript</code>
+  <code>static analysis</code>
+  <code>deterministic pipeline</code>
+  <code>V1 engine</code>
+</p>
+
+<blockquote>
+  <p>
+    Deterministic static-analysis engine for unfamiliar legacy codebases.
+    The current V1 includes a functional COBOL adapter producing reproducible
+    indexes, call graphs, metrics, risk artifacts and technical reports
+    from hashed source evidence.
+  </p>
+
+  <p>
+    <strong>Demonstrates:</strong>
+    deterministic analysis pipelines, artifact integrity,
+    reproducible runs and evidence-driven software investigation.
+  </p>
+</blockquote>
+
+<br>
 
 <h4 align="left">Supporting engineering work</h4>
 
@@ -215,15 +230,22 @@
         C++ Linux Debugging Labs
       </a>
     </b>
-    · practical failure-investigation exercises using GDB, Valgrind, sanitizers and Linux diagnostics
+    <br>
+    Practical failure-investigation exercises using GDB,
+    Valgrind, sanitizers and Linux diagnostics.
   </li>
+
+  <br>
+
   <li>
     <b>
       <a href="https://github.com/avainfo/linux_config">
         linux_config
       </a>
     </b>
-    · reproducible Linux workstation setup for native development, debugging and diagnostic workflows
+    <br>
+    Reproducible Linux workstation setup for native development,
+    debugging and diagnostic workflows.
   </li>
 </ul>
 
