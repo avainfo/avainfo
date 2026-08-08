@@ -44,17 +44,17 @@ My focus is making those failures observable, reducing uncertainty and turning i
 <h3 align="left">Technical toolbox</h3>
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="42" alt="C" />
+  <img src="./assets/icons/c.svg" height="42" alt="C" />
   <img width="18" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="42" alt="C++" />
+  <img src="./assets/icons/cpp.svg" height="42" alt="C++" />
   <img width="18" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="42" alt="Rust" />
+  <img src="./assets/icons/Rust.svg" height="42" alt="Rust" />
   <img width="18" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="42" alt="Linux" />
+  <img src="./assets/icons/linux.svg" height="42" alt="Linux" />
   <img width="18" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="42" alt="Docker" />
+  <img src="./assets/icons/docker.svg" height="42" alt="Docker" />
   <img width="18" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="42" alt="Git" />
+  <img src="./assets/icons/git.svg" height="42" alt="Git" />
 </div>
 
 <br>
@@ -94,6 +94,8 @@ Open upstream pull request adding Alt-Tab window thumbnails through asynchronous
 SHM buffer processing, RGBA thumbnail generation, caching and refresh handling inside an existing Rust codebase.
 </p>
 
+<br>
+
 <h4>
   <a href="https://github.com/avainfo/AegisEdge">
     Aegis Edge
@@ -114,6 +116,8 @@ Resilient telemetry prototype with a C++ core that reacts explicitly to delayed,
 A controllable chaos proxy injects latency, packet loss and complete communication cuts to demonstrate degradation and recovery.
 The project also includes an optional OpenCV-based horizon detection pipeline.
 </p>
+
+<br>
 
 <h4>
   <a href="https://github.com/PGADS-Dev/Sentinel-Dual-Control-System">
@@ -137,6 +141,8 @@ defined fault events, unit tests and reproducible transition validation.
 <p>
 STM32 integration, CAN communication, Raspberry Pi supervision and hardware fault injection are the next implementation stages and are not presented here as completed work.
 </p>
+
+<br>
 
 <h4>
   <a href="https://github.com/PGADS-Dev/BlackBoxWhisperer">
@@ -227,7 +233,7 @@ I am also selectively open to systems software roles with strong technical depth
 
 <div align="center">
   <a href="https://www.linkedin.com/in/antonin-do-souto/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMzgyIDM4MiI+CiAgPHBhdGggZmlsbD0iIzAwNzdiNyIgZD0iTTM0Ny40NDUgMEgzNC41NTVDMTUuNDcxIDAgMCAxNS40NzEgMCAzNC41NTV2MzEyLjg4OUMwIDM2Ni41MjkgMTUuNDcxIDM4MiAzNC41NTUgMzgyaDMxMi44ODlDMzY2LjUyOSAzODIgMzgyIDM2Ni41MjkgMzgyIDM0Ny40NDRWMzQuNTU1QzM4MiAxNS40NzEgMzY2LjUyOSAwIDM0Ny40NDUgMCIvPgogIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik04Ni43NDggMTIzLjQzMmMtMjIuNDU5IDAtNDAuNjY2LTE4LjIwNy00MC42NjYtNDAuNjY2UzY0LjI4OSA0Mi4xIDg2Ljc0OCA0Mi4xczQwLjY2NiAxOC4yMDcgNDAuNjY2IDQwLjY2Ni0xOC4yMDYgNDAuNjY2LTQwLjY2NiA0MC42NjZNMTE4LjIwNyAzMjkuODQ0YzAgNS41NTQtNC41MDIgMTAuMDU2LTEwLjA1NiAxMC4wNTZINjUuMzQ1Yy01LjU1NCAwLTEwLjA1Ni00LjUwMi0xMC4wNTYtMTAuMDU2VjE1MC40MDNjMC01LjU1NCA0LjUwMi0xMC4wNTYgMTAuMDU2LTEwLjA1Nmg0Mi44MDZjNS41NTQgMCAxMC4wNTYgNC41MDIgMTAuMDU2IDEwLjA1NnpNMzQxLjkxIDMzMC42NTRjMCA1LjEwNi00LjE0IDkuMjQ2LTkuMjQ2IDkuMjQ2SDI4Ni43M2MtNS4xMDYgMC05LjI0Ni00LjE0LTkuMjQ2LTkuMjQ2di04NC4xNjhjMC0xMi41NTYgMy42ODMtNTUuMDIxLTMyLjgxMy01NS4wMjEtMjguMzA5IDAtMzQuMDUxIDI5LjA2Ni0zNS4yMDQgNDIuMTF2OTcuMDc5YzAgNS4xMDYtNC4xMzkgOS4yNDYtOS4yNDYgOS4yNDZoLTQ0LjQyNmMtNS4xMDYgMC05LjI0Ni00LjE0LTkuMjQ2LTkuMjQ2VjE0OS41OTNjMC01LjEwNiA0LjE0LTkuMjQ2IDkuMjQ2LTkuMjQ2aDQ0LjQyNmM1LjEwNiAwIDkuMjQ2IDQuMTQgOS4yNDYgOS4yNDZ2MTUuNjU1YzEwLjQ5Ny0xNS43NTMgMjYuMDk3LTI3LjkxMiA1OS4zMTItMjcuOTEyIDczLjU1MiAwIDczLjEzMSA2OC43MTYgNzMuMTMxIDEwNi40NzJ6Ii8+Cjwvc3ZnPg==" height="32" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:antonindosouto@gmail.com">
@@ -235,11 +241,11 @@ I am also selectively open to systems software roles with strong technical depth
   </a>
   &nbsp;
   <a href="https://www.malt.fr/profile/antonindosouto">
-    <img src="https://img.shields.io/badge/Malt-FC5656?style=for-the-badge" height="32" alt="Malt" />
+    <img src="https://img.shields.io/badge/Malt-FC5656?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtbGFiZWw9Ik1hbHQiIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9IiMwMDAwMDAiPjxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIj48L2c+PGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L2c+PGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iMTUlIiBmaWxsPSIjZmM1NjU2Ij48L3JlY3Q+IDxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Im00MDguNCAxMDMuOGMtMzIuNS0zMi40LTY3LjEtMTEuNC04OC44IDEwLjJMMTE0LjggMzE4LjhjLTIxLjcgMjEuNy00NC40IDU0LjctMTAuMiA4OC44YzM0LjEgMzQuMSA2NyAxMS40IDg4LjctMTAuM2wyMDQuOC0yMDQuOGMyMS43LTIxLjYgNDIuNy01Ni4zIDEwLjMtODguN3ptLTE5NS43LTguNCA0My40IDQzLjQgNDQuMS00NC4yYzMtMyA2LTUuOCA5LjEtOC40Yy00LjYtMjMuMy0xNy45LTQ0LjQtNTMuMy00NC40Yy0zNS40IDAtNDguNyAyMS4yLTUzLjIgNDQuNWMzLjMgMi45IDYuNiA1LjggOS45IDkuMXptODcuNSAzMjIuMS00NC4xLTQ0LjEtNDMuNCA0My4zYy0zLjMgMy4zLTYuNSA2LjQtOS44IDkuMmM1IDIzLjggMTkgNDUuNSA1My4xIDQ1LjVjMzQuMiAwIDQ4LjMtMjEuOSA1My4yLTQ1LjdjLTMtMi42LTYtNS4yLTktOC4yem0tMTA1LjktMjE3aC04My42Yy0zMC43IDAtNzAgOS43LTcwIDU1LjVjMCAzNC4zIDIxLjkgNDguMyA0NS44IDUzLjJjMi44LTMuMiAxMDcuOC0xMDguNyAxMDcuOC0xMDguN3ptMjMxLjUgMi4zYy0yLjYgMy0xMDcuOSAxMDguOC0xMDcuOSAxMDguOGg4Mi40YzMwLjcgMCA3MC03LjMgNzAtNTUuNmMwLTM1LjMtMjEuMS00OC42LTQ0LjUtNTMuMnptLTIwNC4xLTI5LjcgMTQuOS0xNC45LTQzLjMtNDMuNGMtMjEuNy0yMS43LTU0LjYtNDQuNC04OC44LTEwLjJjLTI1IDI1LTE5LjQgNDkuNC02LjIgNjkuMWM0LjEtLjMgMTIzLjQtLjYgMTIzLjQtLjZ6bTY4LjcgMTY1LjktMTUgMTUgNDQuMiA0NC4xYzIxLjcgMjEuNyA1Ni4zIDQyLjcgODguNyAxMC4zYzI0LjItMjQuMiAxOC43LTQ5LjcgNS4zLTcwYy00LjMuMy0xMjMuMi42LTEyMy4yLjZ6Ij48L3BhdGg+IDwvZz48L3N2Zz4=" height="32" alt="Malt" />
   </a>
   &nbsp;
   <a href="https://www.codementor.io/@antonindosouto?refer=badge">
-    <img src="https://img.shields.io/static/v1?label=Book%20a%20session&message=Codementor&logo=codementor&color=003648&style=for-the-badge" height="32" alt="Book a session on Codementor" />
+    <img src="https://img.shields.io/badge/CODEMENTOR-033446?style=for-the-badge&logo=codementor&logoColor=white" height="32" alt="Codementor" &logoSize=auto />
   </a>
 </div>
 
@@ -248,8 +254,7 @@ I am also selectively open to systems software roles with strong technical depth
 <h3 align="left">GitHub activity</h3>
 
 <div align="center">
-  <img src="./profile/stats.svg" width="420" alt="GitHub stats" />
-  <img src="./profile/top-langs.svg" width="320" alt="Repository language distribution" />
+  <img src="./profile/stats.svg" width="50%" alt="GitHub stats" />
 </div>
 
 <br>
