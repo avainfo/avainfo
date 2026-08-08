@@ -12,11 +12,7 @@
 </p>
 
 <p align="left">
-I work on Linux, C and C++ systems where failures are hard to reproduce or explain: crashes, freezes, watchdog resets, stale data, communication failures and unclear runtime behavior.
-</p>
-
-<p align="left">
-My focus is making those failures observable, reducing uncertainty and turning incomplete evidence into a structured technical investigation.
+  My focus is making failures observable, reducing uncertainty and turning incomplete evidence into a structured technical investigation.
 </p>
 
 <p align="left">
