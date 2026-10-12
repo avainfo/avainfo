@@ -1,8 +1,8 @@
 
       <svg
         width="300"
-        height="160"
-        viewBox="0 0 300 160"
+        height="190"
+        viewBox="0 0 300 190"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #58A6FF;
+            fill: #fe428e;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #C3D1D9;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #a9fef7;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #C3D1D9;
+      fill: #a9fef7;
     }
     .stagger {
       opacity: 0;
@@ -101,15 +101,29 @@
           height="99%"
           stroke="#e4e2e2"
           width="299"
-          fill="#0D1117"
+          fill="#141321"
           stroke-opacity="1"
         />
 
         
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Most Used Languages</text>
+    </g>
+      </g>
+    
 
         <g
           data-testid="main-card-body"
-          transform="translate(0, 25)"
+          transform="translate(0, 55)"
         >
           
     <svg data-testid="lang-items" x="25">
@@ -124,7 +138,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="61.74"
+          width="61.73"
           height="8"
           fill="#00B4AB"
         />
@@ -132,7 +146,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="61.74"
+          x="61.73"
           y="0"
           width="39.86"
           height="8"
@@ -142,7 +156,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="101.6"
+          x="101.59"
           y="0"
           width="38.94"
           height="8"
@@ -152,7 +166,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="140.54"
+          x="140.53"
           y="0"
           width="31.14"
           height="8"
@@ -162,9 +176,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="171.68"
+          x="171.67000000000002"
           y="0"
-          width="27.71"
+          width="27.7"
           height="8"
           fill="#f1e05a"
         />
@@ -172,9 +186,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="199.39000000000001"
+          x="199.37"
           y="0"
-          width="27.52"
+          width="27.51"
           height="8"
           fill="#e34c26"
         />
@@ -182,9 +196,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="226.91000000000003"
+          x="226.88"
           y="0"
-          width="23.1"
+          width="23.12"
           height="8"
           fill="#89e051"
         />
@@ -216,7 +230,7 @@
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 12.46%
+        TypeScript 12.45%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
@@ -237,7 +251,7 @@
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#89e051" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Shell 9.24%
+        Shell 9.25%
       </text>
     </g>
   </g></g>
