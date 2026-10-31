@@ -1,8 +1,8 @@
 
       <svg
         width="300"
-        height="160"
-        viewBox="0 0 300 160"
+        height="190"
+        viewBox="0 0 300 190"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #58A6FF;
+            fill: #fe428e;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #C3D1D9;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #a9fef7;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #C3D1D9;
+      fill: #a9fef7;
     }
     .stagger {
       opacity: 0;
@@ -101,15 +101,29 @@
           height="99%"
           stroke="#e4e2e2"
           width="299"
-          fill="#0D1117"
+          fill="#141321"
           stroke-opacity="1"
         />
 
         
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Most Used Languages</text>
+    </g>
+      </g>
+    
 
         <g
           data-testid="main-card-body"
-          transform="translate(0, 25)"
+          transform="translate(0, 55)"
         >
           
     <svg data-testid="lang-items" x="25">
@@ -124,7 +138,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="55.4"
+          width="55.38"
           height="8"
           fill="#00B4AB"
         />
@@ -132,9 +146,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="55.4"
+          x="55.38"
           y="0"
-          width="43.73"
+          width="43.72"
           height="8"
           fill="#f1e05a"
         />
@@ -142,9 +156,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="99.13"
+          x="99.1"
           y="0"
-          width="36.41"
+          width="36.4"
           height="8"
           fill="#555555"
         />
@@ -152,9 +166,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="135.54"
+          x="135.5"
           y="0"
-          width="35.77"
+          width="35.76"
           height="8"
           fill="#f34b7d"
         />
@@ -162,7 +176,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="171.31"
+          x="171.26"
           y="0"
           width="27.94"
           height="8"
@@ -172,9 +186,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="199.25"
+          x="199.2"
           y="0"
-          width="27.87"
+          width="27.93"
           height="8"
           fill="#e34c26"
         />
@@ -182,9 +196,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="227.12"
+          x="227.13"
           y="0"
-          width="22.88"
+          width="22.87"
           height="8"
           fill="#89e051"
         />
@@ -195,7 +209,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#00B4AB" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Dart 22.16%
+        Dart 22.15%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -216,21 +230,21 @@
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 14.31%
+        C++ 14.30%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 11.18%
+        TypeScript 11.17%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 11.15%
+        HTML 11.17%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
