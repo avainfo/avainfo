@@ -1,8 +1,8 @@
 
       <svg
         width="300"
-        height="160"
-        viewBox="0 0 300 160"
+        height="190"
+        viewBox="0 0 300 190"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #58A6FF;
+            fill: #fe428e;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #C3D1D9;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #a9fef7;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #C3D1D9;
+      fill: #a9fef7;
     }
     .stagger {
       opacity: 0;
@@ -101,15 +101,29 @@
           height="99%"
           stroke="#e4e2e2"
           width="299"
-          fill="#0D1117"
+          fill="#141321"
           stroke-opacity="1"
         />
 
         
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Most Used Languages</text>
+    </g>
+      </g>
+    
 
         <g
           data-testid="main-card-body"
-          transform="translate(0, 25)"
+          transform="translate(0, 55)"
         >
           
     <svg data-testid="lang-items" x="25">
@@ -144,7 +158,7 @@
           data-testid="lang-progress"
           x="99.1"
           y="0"
-          width="36.4"
+          width="36.43"
           height="8"
           fill="#555555"
         />
@@ -152,9 +166,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="135.5"
+          x="135.53"
           y="0"
-          width="35.76"
+          width="35.75"
           height="8"
           fill="#f34b7d"
         />
@@ -162,9 +176,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="171.26"
+          x="171.28"
           y="0"
-          width="27.94"
+          width="27.93"
           height="8"
           fill="#3178c6"
         />
@@ -172,9 +186,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="199.2"
+          x="199.21"
           y="0"
-          width="27.93"
+          width="27.92"
           height="8"
           fill="#e34c26"
         />
@@ -209,7 +223,7 @@
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 14.56%
+        C 14.57%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
